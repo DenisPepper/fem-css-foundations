@@ -1,0 +1,49 @@
+:root {
+  --color-one: rgba(255, 255, 255, 1);
+  --color-two: rgba(255, 123, 84, 1);
+
+  --font-family-primary: Inter, sans-serif;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  color: var(--color-one);
+  background-color: var(--color-two);
+}
+
+a {
+  color: var(--color-one);
+  text-decoration: inherit;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 34px;
+  grid-template-rows: min-content;
+  grid-template-areas: 'logo nav cart';
+  align-items: center;
+  padding: 0 60px 60px;
+}
+
+.header__link {
+  grid-area: logo;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav {
+  grid-area: nav;
+  justify-self: end;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav__item {
+  margin-inline-end: 36px;
+  font-size: 20px;
+}
