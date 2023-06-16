@@ -1,1 +1,57 @@
 @import './basic.css';
+
+.cart--secondary path {
+  fill: var(--color-two);
+}
+
+.speakers .main__title {
+  font-weight: 700;
+  font-size: 98px;
+  line-height: 119px;
+}
+
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.speaker__wrapper {
+  max-width: 460px;
+}
+
+.speaker__photo {
+  display: block;
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  margin-bottom: 36px;
+}
+
+.speaker__photo--top {
+  object-position: top;
+}
+
+.speaker__name {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.speaker__company,
+.speaker__bio {
+  font-weight: 400;
+  color: var(--color-three);
+}
+
+.speaker__company {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+.speaker__bio {
+  font-size: 20px;
+  line-height: 24px;
+}

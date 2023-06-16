@@ -2,3 +2,28 @@
 @import './basic.css';
 
 
+.home .main__content {
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 155px;
+}
+
+.home .main__date {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin-block-end: 100px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.button__icon {
+  vertical-align: middle;
+}
+
+.cart--primary path {
+  fill: var(--color-one);
+}
